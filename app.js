@@ -7,7 +7,6 @@ var botonCopiar = document.getElementById('botonCopiar');
 var mensajeCopiado = document.getElementById('spanCopiado');
 
 function validarTexto() {
-
     let txtTexto = txtTareaEntrada.value.trim();
 
     if (txtTexto === "") {
@@ -18,6 +17,8 @@ function validarTexto() {
         let caracteresEspeciales = /[!@#\$%\^&\*\(\)_\+\-\=\{\}\[\]\|\\:;'",<>\.\?\/¿?]/;
         let caracteresPermitidos = /^[a-z\s]+$/;
         let caracteresNumeros = /\d/;
+        let caracteresEmojis = /[\u{1F600}-\u{1F64F}]/u;
+        let contieneVocal = /[aeiou]/;
 
         if (caracteresAcentos.test(txtTexto)) {
             alert("No se permiten acentos");
@@ -26,15 +27,23 @@ function validarTexto() {
             alert("No se permiten caracteres especiales");
             return false;
         } else if (caracteresNumeros.test(txtTexto)) {
-            alert("No se permiten Numeros");
+            alert("No se permiten números");
+            return false;
+        } else if (caracteresEmojis.test(txtTexto)) {
+            alert("No se permiten emojis");
             return false;
         } else if(!caracteresPermitidos.test(txtTexto)){
             alert("No se permiten mayúsculas");
+            return false;
+        } else if (!contieneVocal.test(txtTexto)) {
+            alert("El texto ingresado no es valido");
             return false;
         }
         return true;
     }
 }
+
+
 
 function modificarElementos(){
 
