@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --fuente: "Bai Jamjuree", sans-serif;
+    --colorprimario: #0A3871;
+    --colorsecundario: #E9ECF8;
+    --colorterciario: #495957;
+    --colorcuaternario: #072b61;
+    --colorquinario: #ffffff;
+    --colorsenario: #D8DFE8;
+    --colorseptenario: #757fb2;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--colorsecundario);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuente);
+}
+
+textarea::placeholder {
+    color: var(--colorprimario);
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 100%;
+    padding: 1rem;
+}
+
+.container__section, .container__aside {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorquinario);
+    border-radius: 0.5rem;
+}
+
+.container__section {
+    background-color: var(--colorsecundario);
+    padding: 0;
+    flex: 3 /* 75% width */
+}
+
+.container__aside {
+    flex: 2; /* 25% width */
+}
+
+.section__txttarea {
+    flex-grow: 1;
+    border: none;
+    background-color: var(--colorsecundario);
+    resize: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.alerta {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    bottom: 14%;
+    left: 1rem;
+    right: 1rem;
+}
+
+.section__txttarea:hover + .alerta,
+.section__txttarea:focus + .alerta {
+    display: flex;
+}
+
+.alerta__parrafo {
+    color: var(--colorterciario);
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.botonEncriptar, .botonDesencriptar {
+    flex: 1;
+    margin: 0 0.5rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.botonEncriptar {
+    background-color: var(--colorcuaternario);
+    color: var(--colorquinario);
+}
+
+.botonDesencriptar {
+    background-color: var(--colorsenario);
+    color: var(--colorprimario);
+    border: 1px solid var(--colorseptenario);
+}
+
+.aside__imagen {
+    width: 100%;
+    padding: 10% 0;
+}
+
+.aside__txttarea {
+    flex-grow: 1;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.aside__div {
+    text-align: center;
+    margin: 1rem;
+}
+
+.aside__div__parrafo1, .aside__div_parrafo2, .aside__spam {
+    text-align: center;
+    font-family: var(--fuente);
+}
+
+.aside__div__parrafo1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.aside__div_parrafo2 {
+    font-size: 1rem;
+}
+
+.aside__spam {
+    font-style: italic;
+    display: none;
+    font-size: 2rem;
+    font-weight: 700;
+    top: 40%;
+    right: 20%;
+}
+
+.aside__div__boton {
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: var(--colorsenario);
+    color: var(--colorprimario);
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid var(--colorseptenario);
+    text-align: center;
+    display: none;
+    margin: 0 4rem;
+    
+}
+
+.footer {
+    background-color: var(--colorcuaternario);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer__parrafo {
+    color: var(--colorquinario);
+    font-weight: 600;
+}
+
+.footer__parrafo__a {
+    color: var(--colorquinario);
+    text-decoration: none;
+}
+
+.footer__parrafo__a:hover,
+.footer__parrafo__a:active,
+.footer__parrafo__a:focus {
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .container__section, .container__aside {
+        width: 100%;
+        flex: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .section__txttarea, .aside__txttarea {
+        font-size: 1.2rem;
+    }
+
+    .aside__div__parrafo1, .aside__div_parrafo2, .aside__spam {
+        font-size: 1.2rem;
+    }
+
+    .alerta__parrafo {
+        font-size: 1rem;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .footer__parrafo__a {
+        text-decoration: underline;
+    }
+}

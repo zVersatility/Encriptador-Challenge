@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/Logo.png" alt="Logo de Alura">
+    </header>
+    <main class="container">
+        <section class="container__section">
+            <textarea id="textareaIngresaTexto"  spellcheck="false" class="section__txttarea" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="alerta">
+                <img src="./img/Group.png" alt="icono de alerta">
+                <p class="alerta__parrafo">Solo letras minúsculas, sin acentos, números ni caracteres especiales.</p>
+            </div>
+            <div class="botones">
+                <button id="botonEncriptar" class="botonEncriptar" onclick="encriptarTexto();">Encriptar</button>
+                <button id="botonDesencriptar" class="botonDesencriptar" onclick="desencriptarTexto();">Desencriptar </button>
+            </div>
+        </section>
+        <aside class="container__aside">
+            <textarea id="txttareaDevuelveTexto" spellcheck="false" class="aside__txttarea"></textarea>
+            <img id="imagenEncripta" class="aside__imagen" src="./img/encriptar-cifrar.png" alt="imagen de una llave con fondo binario">
+            <div class="aside__div" id="div__parrafos__aside">
+                <p id="parrafoAside1" class="aside__div__parrafo1">Ningún mensaje fue encontrado</p>
+                <p id="parrafoAside2" class="aside__div_parrafo2">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <span id="spanCopiado" class="aside__spam" style="display: none;">¡Texto copiado!</span>
+            <button id="botonCopiar" class="aside__div__boton" onclick="CopiarTexto();">Copiar</button>
+        </aside>
+    </main>
+    <footer class="footer">
+        <p class="footer__parrafo">&copy; 2024 Desarrollado por <a class="footer__parrafo__a" href="https://www.linkedin.com/in/pedro-huaman-mauricio-519846314" target="_blank">Pedro Huaman</a></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
