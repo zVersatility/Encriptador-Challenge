@@ -2,7 +2,7 @@
 
 <h2>Descripción :</h2>
 <p>Challenge principiante de programación del programa ONE-Oracle Next Education por Alura Latam.</p>
- <p></p> Proyecto desarrollado Usando HTML5, CSS y JavaScript</p>
+ <p></p> Proyecto desarrollado usando HTML5, CSS y JavaScript</p>
 <div style="display:flex">
  <img alt="Proyecto Estatus" src="https://img.shields.io/badge/STATUS-FINALIZADO-blue">
  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zVersatility/Encriptador-Challenge"> 
