@@ -1,15 +1,15 @@
-<h1 align="Center"> :computer: Challengue Encriptador de Texto</h1>
+<h1 align="Center"> :computer: Challenge encriptador de texto</h1>
 
 <h2>Descripción :</h2>
-<p>Challengue principiante de programación del programa ONE-Oracle Next Education por Alura Latam.</p>
+<p>Challenge principiante de programación del programa ONE-Oracle Next Education por Alura Latam.</p>
  <p></p> Proyecto desarrollado Usando HTML5, CSS y JavaScript</p>
 <div style="display:flex">
  <img alt="Proyecto Estatus" src="https://img.shields.io/badge/STATUS-FINALIZADO-blue">
  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zVersatility/Encriptador-Challenge"> 
  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/zVersatility/Encriptador-Challenge">
 </div>
-<h3>Características de la aplicacion y demostración : </h3> 
-<h4 align="center">Aplicacion Responsive :iphone::computer:</h4>
+<h3>Características de la aplicación y demostración : </h3> 
+<h4 align="center">Aplicación Responsive :iphone::computer:</h4>
 <div  style="display:flex">
   <img width="300" height="250"  src="https://github.com/user-attachments/assets/f4a8dd67-ef59-4436-bda0-8146f403ce16">
   <img width="300" height="250"  src="https://github.com/user-attachments/assets/0484e13c-3e1f-4636-ba3f-40da638eeab9">
@@ -19,7 +19,7 @@
 ## :hammer:Funcionalidades del proyecto
 
 - `Funcionalidad 1`: Encriptar texto.
-- `Funcionalidad 2`: Descencriptar texto.
+- `Funcionalidad 2`: Desencriptar texto.
 - `Funcionalidad 3`: Copiar texto encriptado/desencriptado.
 
 <br>
@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/42faa90e-1f59-426c-8c3c-f1d67b8c1daf
 
 <br>
 
-<h4 align="center"> :mag_right: Validación de texto(Solo minusculas)</h4>
+<h4 align="center"> :mag_right: Validación de texto (Solo minúsculas)</h4>
 
 <br>
 
@@ -37,7 +37,7 @@ https://github.com/user-attachments/assets/42faa90e-1f59-426c-8c3c-f1d67b8c1daf
 <li>:no_entry_sign:No permite acentos.</li>
 <li>:no_entry_sign:No permite números.</li>
 <li>:no_entry_sign:No permite caracteres especiales.</li>
-<li>:no_entry_sign:No permite mayusculas.</li>
+<li>:no_entry_sign:No permite mayúsculas.</li>
 <li>:no_entry_sign:No permite texto sin vocales.</li>
 <br>
 
@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/42faa90e-1f59-426c-8c3c-f1d67b8c1daf
   Tu navegador no admite el elemento <code>video</code>.
 </video>
 <br>
-<h4 align="center"> :pushpin: Extra(Hover)</h4>
+<h4 align="center"> :pushpin: Extra (Hover)</h4>
 
 https://github.com/user-attachments/assets/74427200-3ef5-4777-957c-eff51b8ce844
 
