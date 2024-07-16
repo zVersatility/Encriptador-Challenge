@@ -11,8 +11,8 @@
 <h3>Características de la aplicacion y demostración : </h3> 
 <h4 align="center">Aplicacion Responsive :iphone::computer:</h4>
 <div  style="display:flex">
-  <img width="450" height="350"  src="https://github.com/user-attachments/assets/f4a8dd67-ef59-4436-bda0-8146f403ce16">
-  <img width="450" height="350"  src="https://github.com/user-attachments/assets/0484e13c-3e1f-4636-ba3f-40da638eeab9">
+  <img width="250" height="150"  src="https://github.com/user-attachments/assets/f4a8dd67-ef59-4436-bda0-8146f403ce16">
+  <img width="250" height="150"  src="https://github.com/user-attachments/assets/0484e13c-3e1f-4636-ba3f-40da638eeab9">
 </div>
 
 
