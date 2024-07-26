@@ -10,7 +10,7 @@ function validarTexto() {
     let txtTexto = txtTareaEntrada.value.trim();
 
     if (txtTexto === "") {
-        alert("No hay nada para encriptar");
+        alert("No se encontro texto");
         return false;
     } else {
         let caracteresAcentos = /[áéíóúÁÉÍÓÚñÑüÜ]/;
