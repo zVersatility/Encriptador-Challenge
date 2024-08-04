@@ -12,7 +12,7 @@
     </header>
     <main class="container">
         <section class="container__section">
-            <textarea id="textareaIngresaTexto"  spellcheck="false" class="section__txttarea" placeholder="Ingrese el texto aquí"></textarea>
+            <textarea id="textareaIngresaTexto" oninput="convertirAMinusculas()"  spellcheck="false" class="section__txttarea" placeholder="Ingrese el texto aquí"></textarea>
             <div class="alerta">
                 <img src="./img/Group.png" alt="icono de alerta">
                 <p class="alerta__parrafo">Solo letras minúsculas, sin acentos, números ni caracteres especiales.</p>
