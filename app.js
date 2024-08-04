@@ -8,6 +8,7 @@ var mensajeCopiado = document.getElementById('spanCopiado');
 
 function validarTexto() {
     let txtTexto = txtTareaEntrada.value.trim();
+    
 
     if (txtTexto === "") {
         alert("No se encontro texto");
@@ -32,9 +33,6 @@ function validarTexto() {
         } else if (caracteresEmojis.test(txtTexto)) {
             alert("No se permiten emojis");
             return false;
-        } else if(!caracteresPermitidos.test(txtTexto)){
-            alert("No se permiten mayúsculas");
-            return false;
         } else if (!contieneVocal.test(txtTexto)) {
             alert("El texto ingresado no es valido");
             return false;
@@ -43,6 +41,7 @@ function validarTexto() {
     }
 }
 
+function convertirAMinusculas() { txtTareaEntrada.value = txtTareaEntrada.value.toLowerCase();}
 
 
 function modificarElementos(){
@@ -136,7 +135,7 @@ function CopiarTexto(){
             mensajeCopiado.style.display="none";
             divParrafosAside.style.display="block";
            
-        },2000 );
+        },1000 );
 
         
 
