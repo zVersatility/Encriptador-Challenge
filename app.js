@@ -65,7 +65,7 @@ function modificarElementosCopiar(){
 
 function encriptarTexto(){
 
-   if(validarTexto()){
+    if(validarTexto()){
 
     modificarElementos();
 
@@ -84,11 +84,11 @@ function encriptarTexto(){
         entrada = entrada.replace(regex, remplazos[key]);
     }
 
-   txtTareaSalida.value=entrada;
-   txtTareaEntrada.value="";
-   
+    txtTareaSalida.value=entrada;
+    txtTareaEntrada.value="";
 
-   }
+
+    }
 }
 
 function desencriptarTexto(){

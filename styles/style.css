@@ -105,6 +105,7 @@ textarea::placeholder {
 .botonEncriptar {
     background-color: var(--colorcuaternario);
     color: var(--colorquinario);
+    border: 1px solid var(--colorseptenario);
 }
 
 .botonDesencriptar {
