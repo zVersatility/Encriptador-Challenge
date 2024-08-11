@@ -69,7 +69,7 @@ https://github.com/user-attachments/assets/6c6aa0c6-49d2-4e1d-b279-4b8d4b1bd111
 
 
 ## Contacto
-- ` Linkedin`: https://www.linkedin.com/in/pedro-huaman-mauricio-519846314/
+- ` Linkedin`: https://www.linkedin.com/in/pedro-huaman-mauricio/
 
 <h3>Autor</h3>
 
