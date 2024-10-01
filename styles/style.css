@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap');
 
 :root {
@@ -19,10 +20,9 @@
 
 body {
     background-color: var(--colorsecundario);
-    height: 100vh;
+    min-height: 100vh; /* Asegura que el body ocupe al menos el 100% de la altura de la ventana */
     display: flex;
     flex-direction: column;
-    font-family: var(--fuente);
 }
 
 textarea::placeholder {
@@ -31,10 +31,10 @@ textarea::placeholder {
 }
 
 .container {
+    flex: 1; /* Hace que el contenedor principal ocupe el espacio restante */
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    height: 100%;
     padding: 1rem;
 }
 
@@ -167,7 +167,6 @@ textarea::placeholder {
     text-align: center;
     display: none;
     margin: 0 4rem;
-    
 }
 
 .footer {
